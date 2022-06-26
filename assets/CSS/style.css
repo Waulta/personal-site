@@ -1,9 +1,4 @@
-h1 {
-  color: purple;
-}
-
-button {
-  border: 2px solid black;
-  background-color: light-grey;
-  color: black;
+body{
+  font-size: 50px;
+  text-align: center;
 }
