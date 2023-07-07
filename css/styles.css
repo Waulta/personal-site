@@ -1,18 +1,124 @@
 body {
   margin: 0;
   padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #000000;
 }
 
 .container {
+  flex-grow: 1;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  color: #d6d6d6;
+  margin-left: 450px;
+  margin-right: 450px;
 }
 
-header,
-nav,
-main,
+.options {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 20px;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.options li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.options li:last-child {
+  margin-right: 0;
+}
+
+.options a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+.services {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: 500px;
+  font-size: 30px;
+  font: bold;
+}
+
+.services li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.services li:last-child {
+  margin-right: 0;
+}
+
+.services a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+header {
+  font-size: larger;
+  color: #cfcfcf;
+}
+
 footer {
-  margin-bottom: 20px;
+  margin-top: auto;
+  color: #cfcfcf;
+  padding: 10px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1,
+h2 {
+  color: #ffffff;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+h1 {
+  color: #990000;
+}
+
+p {
+  line-height: 1.5;
+}
+
+ul {
+  margin-top: 10px;
+}
+
+/* Add hover effect for page options */
+.options a:hover {
+  color: #440066;
+}
+
+.services a:hover {
+  color: #440066;
 }
