@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: Arial, sans-serif;
-  background-color: #1f2f45;
+  background-color: #ffffff;
 }
 
 .container {
@@ -40,7 +40,7 @@ body {
 .options a {
   text-decoration: none;
   font-weight: bold;
-  color: #7d4d95;
+  color: #777777;
 }
 
 .gameOptions {
@@ -101,6 +101,7 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
+  color: #000000
 }
 
 header {
@@ -110,7 +111,7 @@ header {
 
 footer {
   margin-top: auto;
-  color: #cfcfcf;
+  color: #000000;
   padding: 10px;
   text-align: center;
 }
@@ -127,7 +128,7 @@ h2 {
 }
 
 h1 {
-  color: #e4377a;
+  color: #000000;
 }
 
 p {
