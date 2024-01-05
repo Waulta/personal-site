@@ -5,7 +5,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   font-family: Arial, sans-serif;
-  background-color: #ffffff;
+  background-color: #222222;
 }
 
 .container {
@@ -101,7 +101,7 @@ main {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-family: "Comic Sans MS", "Comic Sans", cursive;
-  color: #000000
+  color: #ffffff
 }
 
 header {
@@ -111,7 +111,7 @@ header {
 
 footer {
   margin-top: auto;
-  color: #000000;
+  color: #ffffff;
   padding: 10px;
   text-align: center;
 }
@@ -128,7 +128,7 @@ h2 {
 }
 
 h1 {
-  color: #000000;
+  color: #ffffff;
 }
 
 p {
